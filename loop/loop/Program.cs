@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace loop
 {
@@ -7,18 +7,18 @@ namespace loop
         static void Main(string[] args)
         {
 
-             int index = 1;
 
-            while (index <= 210)
+            int result = 0;
+
+            for (int x = 1; x < 21; x++)
             {
-
-                Console.WriteLine(index);
-                index++;
+                result = result + x;
             }
+
 
             
 
-            Console.ReadLine();
+            Console.WriteLine(result);
         }
     }
 }
